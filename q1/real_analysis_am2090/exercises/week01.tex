@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[thinc]{esdiff}
+
+\newenvironment{myindentpar}[1]%
+ {\begin{list}{}%
+         {\setlength{\leftmargin}{#1}}%
+         \item[]%
+ }
+ {\end{list}}
+
+
+\begin{document}
+
+\title{Real analysis exercises week 1} \maketitle
+
+
+\textbf{Exercise 3.1}
+\begin{myindentpar}{1cm}
+Show that $d(x, y)=\lvert \frac{1}{x} - \frac{1}{y}\rvert$ defines a metric on $(0,\infty)$.
+
+	Clearly, $\forall x, y \in \mathbb{R}: d(x, y)=0\iff x=y$ and $d(x, y)$, and
+
+	$\forall x, y \in \mathbb{R}: d(x, y) \geq 0$, and
+
+	$\forall x, y \in \mathbb{R}: d(x, y) = d(y, x)$.
+
+	For the triangle inequality we use $\lvert a + b\rvert \leq \lvert a \rvert + \lvert b \rvert$.
+	Taking $a = \frac{1}{x} - \frac{1}{z}$ and $b = \frac{1}{z} - \frac{1}{y}$ immediately yields the desired result.
+
+\end{myindentpar}
+
+\textbf{Exercise 3.3}
+\begin{myindentpar}{1cm}
+	Show that $\forall x, y \in \mathbb{R}: d(x, y)=0 \iff x=y$ and the triangle inequality are sufficient to denote a metric.
+
+	Say there exist $x, y \in M$ such that $d(x, y)\neq d(y,x)$. This implies there are $x, y \in M$ such that $d(x,y) > d(y,x)$.
+	Take $z=x$. Then $d(x,y) > d(x,x) + d(x,y)$, which is a contradiction. Hence $\forall x, y \in M$, $d(x,y)=d(y,x)$.
+
+	Say there exist $x, z \in M$ such that $d(x,z) < 0$. Then taking $y=x$ and plugging it into the triangle inequality yields  $d(x,x) > d(x,z) + d(z,x)$,
+	which is a contradiction. Hence $\forall x, y \in M$, we have $d(x,y) \geq 0$.
+
+\end{myindentpar}
+
+\textbf{Exercise 3.6}
+\begin{myindentpar}{1cm}
+
+	If $d$ is any metric on $M$, show that $\rho(x, y)=\sqrt{d(x,y)}$, $\sigma(x, y)=\frac{d(x, y)}{d(x, y) + 1}$, and $\tau(x, y)=min\{d(x,y), 1\}$ are also metrics on $M$.
+
+	Given as all functions are $0$ iff $d(x,y)$ is $0$, this requirement is trivial. For the triangle equality it is then sufficient that the second derivative is negative.
+	This is the case for the first two functions: $\diff*[2]{\rho}{d}=-\frac{1}{4}x^{-\frac{3}{2}}$, $\diff*[2]{\sigma}{d}=-\frac{2}{(1+x)^3}$ which are both negative.
+
+	$min\{d(x,y), 1\}\leq d(x,y) \leq d(x,z) + d(z, y)$ which holds if both of $d(x,z)$ and $d(z,y)$ are less than $0$. If not, then either of them is one, which means
+	$min\{d(x,y), 1\}\leq min\{d(x, z), 1\} + min\{d(z, y), 1\}$ definitely holds.
+
+\end{myindentpar}
+
+\textbf{Exercise 3.21}
+
+Literally can't be bothered.
+
+\end{document}

@@ -1,7 +1,17 @@
-- chapter 1 until example 1.4 (nice page numbers dickhead (yes I'm still salty we need to use R))
-- chapter 2 except 2.3.1
--3.1-3.2 until half-way example 3.6
+Part 1
 
-# TODO: update those retarded things with page numbers
+- chapter 1 until example 1.3
+- chapter 2 until section 2.2.2
+- exercises 1.2, 1.4 - also useful: 1.1, 1.6, 1.7, 1.8, 1.9
 
+- feedback 1.3
+
+
+Part 2
+
+- chapter 2 until 2.3.1
+- chapter 3 3.1, 3.2 until half-way example 3.6
+- exercises 2.3, 2.5, 2.7, 2.8, 3.3 - also useful: 2.1, 2.4, 2.6, 2.9, 2.10, 2.11, 2.12
+
+- feedback: R assignment
 

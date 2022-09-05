@@ -1,0 +1,18 @@
+Lecture 5
+
+- book 33(1, 3, 4)
+- E3: 2, 7 (without ehl)
+
+Instruction
+
+- book 20(9), show also that the function of 20(9) satisfies CR1 in z=0
+- E2: 13c, 14 - challenge 17
+- E3: 3, 6, 8, 14 - challenge 5, 7ehl, 13, 16
+
+- recommended book 26(7) 115(3, 5) 30(3, 6) 33(8) - E2: 13, 15 - E3: 1, 15
+
+Lecture 6
+
+- book 36(1, 2) 42(2) 46(3) 47(1, 2) 53(1abc)
+- E3: 8, 9, 10
+- E4: 2
