@@ -1,0 +1,17 @@
+Lecture 1
+
+- definition of a metric and a norm
+- examples of metric and normed spaces
+
+- page 36-42 of Carothers
+- exercises 3.1, 3.3, 3.6 (see also the hint in Exercise 3.5), 3.21
+- optional 3.8, 3.16 - additional challenge 3.4, 3.19
+
+
+Lecture 2
+
+- open and closed balls, bounded sets, convergent sequences, cauchy, open sets
+
+- page 45-48 / 51-52 - study proof of theorems 4.3 and 4.6
+- exercises 3.27, 3.33, 3.36, 4.1
+- optional 3.30, 4.2 - additional challenge 3.31, 3.43

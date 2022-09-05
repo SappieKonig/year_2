@@ -1,0 +1,13 @@
+Lecture 3
+
+- closed sets, open and closed sets in terms of convergent seqs, interior and closure of a set, relative metric
+
+- 53-56 carothers
+- exercises 4.4, 4.15, 4.17, 4.36
+- additional exercises 4.16, 4.33 - additional challenge 4.12, 4.24
+
+
+Exercise class
+
+- 3.23, 3.29, 3.34, 3.39, 3.42, 4.11, 4.21, 4.41+4.43, 4.46
+- optional 3.13, 3.37, 3.38, 3.46, 4.20, 4.40, 4.45 - challenge 3.7, 3.41, 4.13, 4.25, 4.50, 4.53

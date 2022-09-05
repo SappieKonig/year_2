@@ -1,0 +1,7 @@
+- chapter 1 until example 1.4 (nice page numbers dickhead (yes I'm still salty we need to use R))
+- chapter 2 except 2.3.1
+-3.1-3.2 until half-way example 3.6
+
+# TODO: update those retarded things with page numbers
+
+
