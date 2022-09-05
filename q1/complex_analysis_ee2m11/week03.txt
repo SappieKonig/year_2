@@ -1,5 +1,6 @@
 Lecture 5
 
+- material: section 30-39
 - book 33(1, 3, 4)
 - E3: 2, 7 (without ehl)
 
@@ -13,6 +14,7 @@ Instruction
 
 Lecture 6
 
+- material: section 35, 36, 41-47, 50-51
 - book 36(1, 2) 42(2) 46(3) 47(1, 2) 53(1abc)
 - E3: 8, 9, 10
 - E4: 2

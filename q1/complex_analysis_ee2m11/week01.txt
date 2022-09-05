@@ -1,5 +1,6 @@
 Lecture 1
 
+- material: section 1-11
 - book 5(5), 9(2), 11(2, 3, 4)
 - E1: 1, 2, 3, 8, 9, 11, 15, 16
 
@@ -12,5 +13,6 @@ Instruction
 
 Lecture 2
 
+- material: section 12-14
 - book 12(1, 2, 3, 4, 5) 14(1)
 - E2: 1, 2, 4

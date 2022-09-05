@@ -1,5 +1,6 @@
 Lecture 7
 
+- material: section 48-49, 52-56
 - book 49(2) 57(1)
 - E4: 5a, 7
 
@@ -15,6 +16,7 @@ Instruction
 
 Lecture 8
 
+- material: section 57-58, 60-61, 69 (only region of convergence), 71
 - book 72(1, 3)
 - E4: 12, 14, 15
 - E5: 2ac (for the interested, not part of exam)

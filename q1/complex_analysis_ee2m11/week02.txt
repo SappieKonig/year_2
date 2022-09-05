@@ -1,5 +1,6 @@
 Lecture 3
 
+- material: section 15-22
 - book 18(5) 20(2) 24(1)
 - E2: 8
 
@@ -11,4 +12,5 @@ Instruction
 
 Lecture 4
 
+- material: section 23-27
 - book 24(2, 3) 26(1, 2, 4) 115(1) 30(2, 8)
