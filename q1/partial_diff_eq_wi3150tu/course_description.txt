@@ -1,0 +1,14 @@
+1. Derivation of the conduction of heat in a one-dimensional rod. Boundary conditions: Dirichlet, Neumann, Robin and periodic ones (§1.1 - §1.3).
+2. Equilibrium temperature distribution. Introduction to the method of separation of variables (§1.4, §1.5, §2.1-§2.3).
+3. Method of separation of variables applied to several initial-boundary value problems for heat or diffusion equations (§2.4, §2.5).
+4. Laplace's equation. Maximum principle (§2.5).
+5. Fourier series. Convergence Theorem. Fourier cosine and sine series. Term-by-term differentiation of Fourier series (§3.1-§3.4).
+6. Term-by-term integration of Fourier series. Derivation of a vertically string. Wave equation (§3.5, §3.6 and §4.1-§4.3).
+7. Vibrating string with fixed ends. Method of characteristics for one-dimensional wave equations. d'Alemberts formula (§4.4, (§4.5, §4.6) §12.1, §12.3).
+8. Semi-infinite strings and reflections. Method of characteristics for a vibrating string of fixed length. Energy. Uniqueness of solution (§12.4, §12.5).
+9. Sturm-Liouville eigenvalue problems (§5.1- §5.4).
+10. Self-adjoint operators and eigenvalue problems. Rayleigh quotient.(§5.5-§5.8).
+11. Large eigenvalues. Higher dimensional partial differential equations. (§5.9, §5.10, §7.1, §7.2).
+12. Vibrating membranes. Green's formula. Self-adjoint operators and multidimensional eigenvalue problems (§7.3-§7.5)
+13. Rayleigh quotient and Laplace's equation. Nonhomogeneous problems for heat equation. (§7.6, (§7.7-§7.10), §8.1-§8.3)
+14. Nonhomogeneous problems for wave equations and for Laplace's equation (§8.4-§8.6)
