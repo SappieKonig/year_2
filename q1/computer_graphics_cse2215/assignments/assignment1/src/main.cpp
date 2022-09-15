@@ -81,6 +81,8 @@ int main()
         print_matrix(inv);
         print_matrix(id);
         print_matrix(add(m, inv));
+        print_matrix(mul(m, (float) 2));
+        mul(m, m.col1);
     }
 
     std::cout << "All done!" << std::endl;
