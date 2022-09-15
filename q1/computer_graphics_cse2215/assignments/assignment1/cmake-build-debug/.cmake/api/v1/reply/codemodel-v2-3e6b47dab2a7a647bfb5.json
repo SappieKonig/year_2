@@ -1,0 +1,236 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "framework",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-framework-Debug-308e10f56f9c91364e93.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework"
+				},
+				{
+					"build" : "framework/third_party",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						7
+					],
+					"jsonFile" : "directory-framework.third_party-Debug-5b0e36455aedf49cad59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "framework/third_party"
+				},
+				{
+					"build" : "framework/third_party/catch2",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-framework.third_party.catch2-Debug-7da7153976d113cdc47f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "framework/third_party/catch2"
+				},
+				{
+					"build" : "framework/third_party/catch2/src",
+					"jsonFile" : "directory-framework.third_party.catch2.src-Debug-b9aa67bdf8cb49f01a84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "framework/third_party/catch2/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "framework/third_party/glm",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-framework.third_party.glm-Debug-1a9b6b3081f874ff6dad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "framework/third_party/glm",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "framework/third_party/glm/glm",
+					"jsonFile" : "directory-framework.third_party.glm.glm-Debug-b23d2fbf096c08a6cdd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "framework/third_party/glm/glm"
+				},
+				{
+					"build" : "framework/third_party/fmt",
+					"jsonFile" : "directory-framework.third_party.fmt-Debug-141eefad8a637169d00b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework/third_party/fmt",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7
+					],
+					"name" : "ComputerGraphics",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2::@5d14516d7c572ca1c0b9",
+					"jsonFile" : "target-Catch2-Debug-acc744649fe92ada4b1a.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2WithMain::@5d14516d7c572ca1c0b9",
+					"jsonFile" : "target-Catch2WithMain-Debug-9df708ed72adac9425e7.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Practical1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Practical1-Debug-0127dc6580a3c54e3087.json",
+					"name" : "Practical1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fmt::@0dd0d94e1dc15276fb9a",
+					"jsonFile" : "target-fmt-Debug-a71e3e4a101e48dd96c4.json",
+					"name" : "fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "uninstall::@3d52fb0c6669cf922159",
+					"jsonFile" : "target-uninstall-Debug-bcd94b52e9cd412670ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sappie/year_2/q1/computer_graphics_cse2215/assignments/assignment1/cmake-build-debug",
+		"source" : "/home/sappie/year_2/q1/computer_graphics_cse2215/assignments/assignment1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
