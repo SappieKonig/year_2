@@ -9,6 +9,8 @@ DISABLE_WARNINGS_POP()
 #include <span>
 #include <string>
 #include <vector>
+#include <iostream>
+#include <csignal>
 
 static glm::mat4 rotationMatrix(float angle, const glm::vec3& axis)
 {
@@ -66,10 +68,24 @@ std::vector<glm::mat4> computeCelestrialBodyTransformations(std::span<const Cele
     // For each celestial body, compute the matrix which scales the object (relative to a sphere at the origin with radius=1),
     //  translates and rotates it such that it respects the orbit / spin / scale stored in the input.
     std::vector<glm::mat4> transforms;
-    for (const CelestrialBody& body : celestialBodies) {
-        // Your implementation goes here
-        glm::mat4 matrix = glm::identity<glm::mat4>();
-        transforms.push_back(matrix);
+
+    std::vector<glm::vec4> translations;
+    glm::vec4 translation;
+    glm::mat4 rotation;
+    for (auto &body : celestialBodies) {
+        glm::mat4 scale = scaleMatrix(glm::vec3(body.radius, body.radius, body.radius));
+        rotation = glm::rotate(glm::identity<glm::mat4>(), time * 2 * glm::pi<float>() / body.spinPeriod, glm::vec3(0, 1, 0));
+        if (body.orbitAround >= 0) {
+            translation = glm::vec4(body.orbitAltitude, 0.0f, 0.0f, 0.0f);
+            translation = glm::rotate(glm::identity<glm::mat4>(), time * 2 * glm::pi<float>() / body.orbitPeriod, glm::vec3(0, 1, 0)) * translation;
+            translation = translations[body.orbitAround] + translation;
+        }
+        else {
+            translation = glm::vec4(0.0f, 0.0f, 0.0f, 0.0f);
+        }
+
+        translations.push_back(translation);
+        transforms.push_back(translationMatrix(glm::vec3(translation)) * rotation * scale);
     }
     return transforms;
 }

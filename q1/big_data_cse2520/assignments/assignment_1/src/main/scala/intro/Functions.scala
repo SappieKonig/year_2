@@ -101,9 +101,9 @@ object Functions {
    */
 
   // TODO: replace the ??? with lambda expressions (anonymous functions)
-  val isEven = (i: Int) => (i % 2) == 0 // tells whether given Int is even or not
-  val isOdd = (i: Int) => (i % 2) == 1 // same but this time if it's odd
-  val timesTwo = (i: Int) => i * 2 // takes an Int and doubles it
+  val isEven: Int => Boolean = (i: Int) => (i % 2) == 0 // tells whether given Int is even or not
+  val isOdd: Int => Boolean = (i: Int) => (i % 2) == 1 // same but this time if it's odd
+  val timesTwo: Int => Int = (i: Int) => i * 2 // takes an Int and doubles it
 
   def hofs(): List[List[Int]] =
   // TODO change this method below:

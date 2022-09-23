@@ -1,0 +1,7 @@
+/home/sappie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/sappie/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/ninja/linux/ninja -G Ninja -S /home/sappie/year_2/q1/computer_graphics_cse2215/assignments/assignment2 -B /home/sappie/year_2/q1/computer_graphics_cse2215/assignments/assignment2/cmake-build-debug
+-- GLM: Version 0.9.9.9
+-- Using X11 for window creation
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sappie/year_2/q1/computer_graphics_cse2215/assignments/assignment2/cmake-build-debug

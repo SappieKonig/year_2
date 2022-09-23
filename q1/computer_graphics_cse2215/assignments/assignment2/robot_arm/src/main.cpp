@@ -105,7 +105,7 @@ int main(int argc, char** argv)
         drawCoordSystem();
 
         ImGui::Begin("Controls");
-        static int displayMode = 0;
+        static int displayMode = 4;
         const std::array displayModes { "Triangle", "Face", "Cube", "Arm", "Mesh" };
         ImGui::Combo("Display Mode", &displayMode, displayModes.data(), (int)displayModes.size());
         ImGui::Spacing();

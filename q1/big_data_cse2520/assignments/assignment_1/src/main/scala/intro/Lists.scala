@@ -45,7 +45,6 @@ object Lists {
           * Lists can also be created with the `List` function. This is a shorthand for the recursive way given earlier.
           * When printing lists to the console, they are displayed like this as well.
           */
-        val four = List(1, 2, 3, 4)
     }
 
     /** Q2 (3p)
@@ -62,5 +61,10 @@ object Lists {
       * Read the Scaladoc on the List class (https://www.scala-lang.org/api/2.12.3/scala/collection/immutable/List.html)
       * It contains some useful functions for this exercise. For this question library functions are allowed.
       */
-    def customAverage(xs: List[Int], x: Int, n: Int): Int = ???
+    def customAverage(xs: List[Int], x: Int, n: Int): Int = {
+        val filtered_list = xs.filter(_ > x)
+        val first_n = filtered_list.take(n)
+        val sum = first_n.sum
+        sum / first_n.length
+    }
 }
