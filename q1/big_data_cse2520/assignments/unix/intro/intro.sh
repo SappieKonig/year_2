@@ -66,7 +66,7 @@ echo "First pipeline results:"
 echo "$firstPipeline"
 
 # Implement a pipeline that displays only the owner of the log files in the current directory.
-secondPipeline=$(ls -l | awk '{print$4}')
+secondPipeline=$(ls -l | awk '{print$4}' | head -3)
 # Print result
 echo "Second pipeline results:"
 echo "$secondPipeline"

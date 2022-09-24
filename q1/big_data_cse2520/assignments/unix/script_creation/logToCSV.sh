@@ -9,5 +9,4 @@
 # Example: `./logToCSV access_log > output.csv`
 # It could take some time to convert all of the `access_log` file contents. Consider using a small subset for testing.
 
-# write top 100 lines to output
-cat $1 | awk '{print $1","$4" "$5","$6","$7","$9","$10}'
+cat $1 | awk '{gsub(/\[/, "", $4);print $1","$4","$6","$7","$9","$10}'
